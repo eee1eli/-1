@@ -12,7 +12,7 @@ setlocale(LC_ALL, "Ukr");
        printf ("Error");
        return 0;
    }
-   t = (t1 + t2 + t3) / 3;
+   t = ((t1 + t2 + t3) / 3) / 3;
    printf ("Час необхідний для з'їдання пригода: %d\n",t);
     return 0;
 }
